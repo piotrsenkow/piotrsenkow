@@ -2,7 +2,7 @@
 
 Senior full-stack engineer based in Chicago. I build production systems end-to-end — currently focused on **Realytica**, a self-hosted real-estate investment-analytics platform for Chicagoland investors.
 
-Most of my professional work isn't open-source. This profile mainly hosts older side-project source; this README is where I describe what I build and the architectural calls I make along the way.
+Most of my professional work isn't open-source — Realytica included — but I've carved a couple of production-hardened pieces of its stack out into standalone, general-purpose tools ([below](#open-source)). This README is where I describe what I build and the architectural calls I make along the way.
 
 ---
 
@@ -32,7 +32,23 @@ Investor underwriting workspace: persistence, sensitivity analysis, side-by-side
 
 ### Source
 
-Realytica's source isn't public; the platform serves real users and the codebase stays private. Happy to walk through architecture, decisions, and tradeoffs in interview conversations.
+Realytica's source isn't public; the platform serves real users and the codebase stays private. Two general-purpose pieces of its ingestion + query layer *are* public, though — see [Open Source](#open-source). Happy to walk through architecture, decisions, and tradeoffs in interview conversations.
+
+---
+
+## Open Source
+
+Two production-hardened pieces of the Realytica stack, rebuilt clean-room as general-purpose tools anyone with an MLS Grid license can run:
+
+```
+MLS Grid API ──▶ mlsgrid-sync ──▶ PostgreSQL ──▶ mlsgrid-mcp ──▶ your AI agent
+                 (replication)     (your data)    (query tools)
+```
+
+- **[mlsgrid-sync](https://github.com/piotrsenkow/mlsgrid-sync)** — a single Go binary that replicates MLS Grid (RESO Web API / OData) feeds into PostgreSQL: resumable backfill, cursor-based incremental sync, reconcile sweeps, media download to S3-compatible storage, and configurable field scopes — all inside the feed's rate limits. The database schema is a versioned, documented contract.
+- **[mlsgrid-mcp](https://github.com/piotrsenkow/mlsgrid-mcp)** — a read-only [Model Context Protocol](https://modelcontextprotocol.io) server that lets AI agents query that database: search listings, pull comps, price history, market stats, open houses. Pins the sync project's schema contract so the two release independently.
+
+Both are Apache-2.0 and ship no MLS data or credentials — you bring your own licensed feed.
 
 ---
 
