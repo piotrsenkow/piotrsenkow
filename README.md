@@ -14,7 +14,7 @@ A real-estate analytics platform that ingests every MLS-Grid listing in the MRED
 
 ### Scale (June 2026)
 
-- **6.66M** total property records on PostgreSQL 17 + PostGIS
+- **7M** total property records on PostgreSQL 17 + PostGIS
 - **2.96M** lifetime IDX records, **21K** currently active across all counties
 - **4.22M** photos with BlurHash placeholders, **~2 TB** in self-hosted object storage
 - **12** Cook County public datasets fused with the MLS feed
