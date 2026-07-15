@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1007px" height="490px" font-size="16px" font-family="ConsolasFallback,Consolas,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  -webkit-size-adjust: 109%;
+  size-adjust: 109%;
+}
+.face {fill: #24292f;}
+.prompt {fill: #953800; font-weight: bold;}
+.key {fill: #953800; font-weight: bold;}
+.value {fill: #0a3069;}
+.rule {fill: #8c959f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1007px" height="490px" fill="#f6f8fa" rx="15"/>
+<text class="face">
+<tspan x="15" y="30">                    +** +</tspan>
+<tspan x="15" y="50">                 +x&amp;&amp;&amp;&amp;&amp;&amp;#*x+*</tspan>
+<tspan x="15" y="70">               x&amp;&amp;&amp;&amp;X@XXXXXX$@$*</tspan>
+<tspan x="15" y="90">             x#&amp;&amp;$$$$$$$&amp;&amp;XXX&amp;$x*=</tspan>
+<tspan x="15" y="110">           x$&amp;&amp;#x*****xxxxx###&amp;&amp;$x</tspan>
+<tspan x="15" y="130">          #$&amp;&amp;#+++**xxxxxxxx*+=*#</tspan>
+<tspan x="15" y="150">           #$#x++*****xxxx#x*=--=+</tspan>
+<tspan x="15" y="170">           x##*++*xx#$$$##$$$$$$x*</tspan>
+<tspan x="15" y="190">           x#x++*##$&amp;XX$#x#X@@X&amp;#*</tspan>
+<tspan x="15" y="210">          xxxx+**x#$&amp;&amp;&amp;x**x$X&amp;$x+-</tspan>
+<tspan x="15" y="230">          #***+++**xxx#***xx#$#x+.-</tspan>
+<tspan x="15" y="250">          *#x+****x#$&amp;$#$&amp;&amp;&amp;$&amp;X&amp;$*=</tspan>
+<tspan x="15" y="270">           *****xx#$&amp;$###$&amp;$##&amp;&amp;#*+</tspan>
+<tspan x="15" y="290">              **xxx$$$##$&amp;&amp;&amp;x*$#+*</tspan>
+<tspan x="15" y="310">               *xxx##xxx##$#**x*++</tspan>
+<tspan x="15" y="330">               *xx##xxxxx#$##&amp;x=</tspan>
+<tspan x="15" y="350">                *x#####$$&amp;X&amp;X&amp;x</tspan>
+<tspan x="15" y="370">                *xx##$$&amp;&amp;XX&amp;$&amp;$</tspan>
+<tspan x="15" y="390">               #+xxx#####&amp;&amp;$$#x&amp;$</tspan>
+<tspan x="15" y="410">           #$&amp;XXx*xx#####$&amp;$$#++$X&amp;*</tspan>
+<tspan x="15" y="430">       #&amp;X@@X@@@@$xxx##$$$&amp;&amp;$#+--*XX$$$##x</tspan>
+<tspan x="15" y="450">   $$X@@@@@@@@@@@@X$#xx##$$$#*=.--#$XXXXX@X&amp;x</tspan>
+</text>
+<text>
+<tspan class="prompt" x="480" y="160">piotr@realytica</tspan>
+<tspan class="rule" x="480" y="180">───────────────</tspan>
+<tspan class="key" x="480" y="200">OS</tspan><tspan class="value" x="580" y="200">Ubuntu 26.04 · macOS Tahoe 26.5.2 · Win 11</tspan>
+<tspan class="key" x="480" y="220">Kernel</tspan><tspan class="value" x="580" y="220">Python · Go · TypeScript · C# · C++23</tspan>
+<tspan class="key" x="480" y="240">DB</tspan><tspan class="value" x="580" y="240">PostgreSQL 17 + PostGIS · 7M records</tspan>
+<tspan class="key" x="480" y="260">Spatial</tspan><tspan class="value" x="580" y="260">custom Google S2 index over gRPC</tspan>
+<tspan class="key" x="480" y="280">Frontend</tspan><tspan class="value" x="580" y="280">Next.js 16 · React 19 · Mapbox GL</tspan>
+<tspan class="key" x="480" y="300">Network</tspan><tspan class="value" x="580" y="300">OPNsense · Proxmox</tspan>
+<tspan class="key" x="480" y="320">Location</tspan><tspan class="value" x="580" y="320">Chicago, IL</tspan>
+</text>
+</svg>

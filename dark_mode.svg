@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1007px" height="490px" font-size="16px" font-family="ConsolasFallback,Consolas,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  -webkit-size-adjust: 109%;
+  size-adjust: 109%;
+}
+.face {fill: #c9d1d9;}
+.prompt {fill: #ffa657; font-weight: bold;}
+.key {fill: #ffa657; font-weight: bold;}
+.value {fill: #a5d6ff;}
+.rule {fill: #616e7f;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1007px" height="490px" fill="#161b22" rx="15"/>
+<text class="face">
+<tspan x="15" y="30">                    #xx #</tspan>
+<tspan x="15" y="50">                 #*------+x*#x</tspan>
+<tspan x="15" y="70">               *----. ......= =x</tspan>
+<tspan x="15" y="90">             *+--=======--...-=*x$</tspan>
+<tspan x="15" y="110">           *=--+*xxxxx*****+++--=*</tspan>
+<tspan x="15" y="130">          +=--+###xx********x$$x+</tspan>
+<tspan x="15" y="150">           +=+*##xxxxx****+*x$&amp;&amp;$#</tspan>
+<tspan x="15" y="170">           *++x##x**+===++======*x</tspan>
+<tspan x="15" y="190">           *+*##x++=-..=+*+.  .-+x</tspan>
+<tspan x="15" y="210">          ****#xx*+=---*xx*=.-=*#&amp;</tspan>
+<tspan x="15" y="230">          +xxx###xx***+xxx**+=+*#X&amp;</tspan>
+<tspan x="15" y="250">          x+*#xxxx*+=-=+=---=-.-=x$</tspan>
+<tspan x="15" y="270">           xxxxx**+=-=+++=-=++--+x#</tspan>
+<tspan x="15" y="290">              xx***===++=---*x=+#x</tspan>
+<tspan x="15" y="310">               x***++***++=+xx*x##</tspan>
+<tspan x="15" y="330">               x**++*****+=++-*$</tspan>
+<tspan x="15" y="350">                x*+++++==-.-.-*</tspan>
+<tspan x="15" y="370">                x**++==--..-=-+</tspan>
+<tspan x="15" y="390">               +#***+++++--==+*-=</tspan>
+<tspan x="15" y="410">           +=-..*x**+++++=-==+##+.-x</tspan>
+<tspan x="15" y="430">       +-.  .    =***++===--=+#&amp;&amp;x..===++*</tspan>
+<tspan x="15" y="450">   ==.            .=+**++===+x$X&amp;&amp;+=..... .-*</tspan>
+</text>
+<text>
+<tspan class="prompt" x="480" y="160">piotr@realytica</tspan>
+<tspan class="rule" x="480" y="180">───────────────</tspan>
+<tspan class="key" x="480" y="200">OS</tspan><tspan class="value" x="580" y="200">Ubuntu 26.04 · macOS Tahoe 26.5.2 · Win 11</tspan>
+<tspan class="key" x="480" y="220">Kernel</tspan><tspan class="value" x="580" y="220">Python · Go · TypeScript · C# · C++23</tspan>
+<tspan class="key" x="480" y="240">DB</tspan><tspan class="value" x="580" y="240">PostgreSQL 17 + PostGIS · 7M records</tspan>
+<tspan class="key" x="480" y="260">Spatial</tspan><tspan class="value" x="580" y="260">custom Google S2 index over gRPC</tspan>
+<tspan class="key" x="480" y="280">Frontend</tspan><tspan class="value" x="580" y="280">Next.js 16 · React 19 · Mapbox GL</tspan>
+<tspan class="key" x="480" y="300">Network</tspan><tspan class="value" x="580" y="300">OPNsense · Proxmox</tspan>
+<tspan class="key" x="480" y="320">Location</tspan><tspan class="value" x="580" y="320">Chicago, IL</tspan>
+</text>
+</svg>

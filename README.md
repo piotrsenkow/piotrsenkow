@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/piotrsenkow/piotrsenkow/main/dark_mode.svg">
+  <img alt="ASCII-art portrait of Piotr Senkow beside a neofetch-style summary: Ubuntu 26.04, macOS Tahoe and Windows 11; Python, Go, TypeScript, C# and C++23; PostgreSQL 17 + PostGIS with 7M property records; a custom Google S2 spatial index over gRPC; Next.js 16, React 19 and Mapbox GL; OPNsense and Proxmox; based in Chicago, IL" src="https://raw.githubusercontent.com/piotrsenkow/piotrsenkow/main/light_mode.svg">
+</picture>
+
 # Piotr Senkow
 
 Senior full-stack engineer based in Chicago. I build production systems end-to-end — currently focused on **Realytica**, a self-hosted real-estate investment-analytics platform for Chicagoland investors.
